@@ -1,0 +1,35 @@
+html {
+    font-family: sans-serif;
+}
+
+
+#sidebar {
+    height: 100%;
+    width: 12%;
+    
+    position: fixed;
+    
+    padding-right: 1em;
+    background-color: rgba(138, 205, 229, 0.63);
+}
+
+ul {
+    list-style: none;
+    margin-left: -1.5em;
+    font-size: 20pt;
+    line-height: 2em;
+}
+
+li {
+    background-color: salmon;
+    padding: 0em 0.5em 0em 0.5em;
+    box-shadow: 0.3em 0.2em 0em rgba(62, 60, 60, 0.86);
+    margin: 0.5em;
+}
+
+.active {
+    background-color: aqua;
+}
+.nav-expand {
+    
+}
